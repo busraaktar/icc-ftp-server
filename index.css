@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(image/logo.png);
+    height: 5rem;
+    width: 8.5rem;
+    margin-left: 10rem;
+}
+.div{
+    display:flex;
+    width: 100%;
+    height: 10rem;
+}
+img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 70rem;
+}
+.vb{
+    margin: 1rem;
+}
+nav{
+    background-color: rgb(13, 159, 18);
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+a{
+    color: white;
+}
+.h1:hover{
+    color: chocolate;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 1rem;
+    
+}
+.card{
+    padding: 1px;
+    width: 30rem;
+    height: 20rem;
+    font-size: x-large;
+}
+p,h2{
+    text-align: center;
+}
+i:hover{
+    color: chocolate;
+    animation-timing-function: linear;
+}
+.nu{
+    font-size: x-large;
+    margin: 5rem;
+}
+.nu:hover{
+    color: chocolate;
+}
+.mu{
+    font-size: x-large;
+    margin: 5rem;  
+}
+.mu:hover{
+    color: chocolate;
+}
+.br{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    grid-template-rows: 30px 30px;
+    width: 60rem;
+    margin-left: 27.5rem;
+}
+.btr{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 50px 50px;
+    gap: .1rem;
+    width: 70rem;
+    height: 4rem;
+    margin-left: 23rem;
+    padding: 1rem;
+}
+.brt1{
+    background-color: darkslategray;
+    padding: 1rem;  
+}
+
+
+
+
+
